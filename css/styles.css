@@ -1,17 +1,21 @@
 :root {
   --body-background-color: #ffffff;
   --text-color: #000000;
+  --secondary-text-color: #fff;
+  --button-gradient: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+  border-radius: 5px;
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: var(--text-color);
   font-size: 16px;
+  line-height: 1.5;
   font-style: normal;
   background-color: var(--body-background-color);
 }
 
-/* utilities */
+/* UTILITIES */
 
 .list {
   list-style: none;
@@ -37,72 +41,100 @@ img {
   max-width: 100%;
 }
 
+/* END UTILITIES */
 /* HEADER */
 
-/* Mobileapp */
-
 .logo {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
   font-size: 28px;
-  line-height: 34px;
-  text-decoration: 0;
+  line-height: 1.2;
+  text-decoration: none;
 }
-
-/* HOME */
 
 .home {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   text-decoration: 0;
 }
-
-/* FEATURES */
 
 .features {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   text-decoration: 0;
 }
-
-/* TEAM */
 
 .team {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   text-decoration: 0;
 }
-
-/* TESTIMONIALS */
 
 .testimonials {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   text-decoration: 0;
 }
-
-/* CONTACT */
 
 .contact {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   text-decoration: 0;
 }
+/* END HEADER */
+/* OUR TEAM */
 
-/* End utilities */
+.team-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-text {
+  max-width: 886px;
+  text-align: center;
+}
+
+.card-item {
+  width: 288px;
+  padding: 12px;
+  background: linear-gradient(105.09deg, rgba(0, 197, 235, 0.5) -13.66%, rgba(181, 68, 254, 0.5) 104.34%), #06071b;
+  border-radius: 15px;
+}
+
+.card-img {
+  border-radius: 10px;
+}
+
+.card-title {
+  margin: 20px 0 0 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.card-text {
+  margin: 12px 0 0 0;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/* END OUR TEAM */
