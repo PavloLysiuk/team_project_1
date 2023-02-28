@@ -29,12 +29,80 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   width: calc(1248px + 16px + 16px);
-  background-color: rgb(0, 128, 68);
+  background-color: rgb(0, 128, 0);
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+/* HEADER */
+
+/* Mobileapp */
+
+.logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  text-decoration: 0;
+}
+
+/* HOME */
+
+.home {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: 0;
+}
+
+/* FEATURES */
+
+.features {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: 0;
+}
+
+/* TEAM */
+
+.team {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: 0;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: 0;
+}
+
+/* CONTACT */
+
+.contact {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: 0;
 }
 
 /* End utilities */
