@@ -161,6 +161,29 @@ img {
 
 /* END HERO */
 
+/* WATCH THE VIDEO */
+
+.video-list {
+  background-color: var(--hero-button-hover-color);
+}
+
+.video-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+  
+    color: #FFFFFF;
+}
+
+.video-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  
+    color: #FFFFFF;
+}
+
 /* OUR TEAM */
 
 .team-title {
