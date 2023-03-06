@@ -1,19 +1,17 @@
 :root {
-  --body-background-color: #ffffff;
-  --text-color: #000000;
-  --secondary-text-color: #fff;
+  --main-black-color: #000000;
+  --secondary-white-color: #ffffff;
   --button-gradient: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
   --hero-button-hover-color: #06071b;
-  --hero-text-color: #ffffff;
 }
 
 body {
   font-family: 'Inter', sans-serif;
-  color: var(--text-color);
+  color: var(--main-black-color);
   font-size: 16px;
   line-height: 1.5;
   font-style: normal;
-  background-color: var(--body-background-color);
+  background-color: var(--secondary-white-color);
 }
 
 /* UTILITIES */
@@ -50,54 +48,22 @@ img {
   font-size: 28px;
   line-height: 1.2;
   text-decoration: none;
+
+  color: var(--secondary-white-color);
 }
 
-.home {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  text-decoration: 0;
+.header {
+  background-color: aqua;
 }
 
-.features {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
+.nav-link {
   font-size: 12px;
-  line-height: 15px;
-  text-decoration: 0;
+  line-height: 1.25;
+
+  color: var(--secondary-white-color);
 }
 
-.team {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  text-decoration: 0;
-}
-
-.testimonials {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  text-decoration: 0;
-}
-
-.contact {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  text-decoration: 0;
-}
 /* END HEADER */
-
 /*-- HERO --*/
 
 .hero-title {
@@ -107,7 +73,7 @@ img {
   font-size: 40px;
   line-height: 1.2;
 
-  color: var(--hero-text-color);
+  color: var(--secondary-white-color);
 }
 
 .hero-subtitle {
@@ -117,7 +83,7 @@ img {
   font-size: 20px;
   line-height: 24px;
 
-  color: var(--hero-text-color);
+  color: var(--secondary-white-color);
 }
 
 .hero-list .item {
@@ -127,7 +93,7 @@ img {
   font-weight: 700;
 
   line-height: 1.19;
-  color: var(--hero-text-color);
+  color: var(--secondary-white-color);
 }
 
 .hero-list .item:last-child {
@@ -144,7 +110,7 @@ img {
   font-size: 16px;
   line-height: 1.19;
 
-  color: var(--hero-text-color);
+  color: var(--secondary-white-color);
   background: var(--button-gradient);
   border: none;
   border-radius: 5px;
@@ -160,7 +126,6 @@ img {
 }
 
 /* END HERO */
-
 /* WATCH THE VIDEO */
 
 .video-list {
@@ -168,26 +133,24 @@ img {
 }
 
 .video-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.2;
-  
-    color: #FFFFFF;
+  font-size: 24px;
+  line-height: 1.2;
+
+  color: var(--secondary-white-color);
 }
 
 .video-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-  
-    color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+
+  color: var(--secondary-white-color);
 }
 
+/* END WATCH THE VIDEO */
 /* OUR TEAM */
 
 .team-title {
-  font-weight: 700;
   font-size: 24px;
   line-height: 1.2;
   text-align: center;
@@ -206,7 +169,7 @@ img {
       rgba(0, 197, 235, 0.5) -13.66%,
       rgba(181, 68, 254, 0.5) 104.34%
     ),
-    #06071b;
+    var(--hero-button-hover-color);
   border-radius: 15px;
 }
 
@@ -216,11 +179,10 @@ img {
 
 .card-title {
   margin: 20px 0 0 0;
-  font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
   text-align: center;
-  color: var(--secondary-text-color);
+  color: var(--secondary-white-color);
 }
 
 .card-text {
@@ -228,7 +190,7 @@ img {
   font-size: 14px;
   line-height: 2;
   text-align: center;
-  color: var(--secondary-text-color);
+  color: var(--secondary-white-color);
 }
 
 /* END OUR TEAM */
