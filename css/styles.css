@@ -44,7 +44,16 @@ img {
 
 /* HEADER */
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo {
+  display: block;
+  padding-top: 19px;
+  padding-bottom: 19px;
   font-size: 28px;
   line-height: 1.2;
   text-decoration: none;
@@ -56,12 +65,28 @@ img {
   background-color: aqua;
 }
 
+.page-nav {
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .nav-link {
+  display: block;
+  padding-top: 29px;
+  padding-bottom: 28px;
   font-size: 12px;
   line-height: 1.25;
 
   color: var(--secondary-white-color);
 }
+
 
 /* END HEADER */
 /*-- HERO --*/
