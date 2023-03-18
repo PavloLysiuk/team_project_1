@@ -157,7 +157,21 @@ img {
   background-color: var(--hero-button-hover-color);
 }
 
+.watch-video {
+  display: flex;
+  max-width: 1278px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid #06071B;
+}
+
+.watch-text {
+  margin-right: 161px;
+}
+
 .video-title {
+  margin-top: 60px;
+  margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.2;
 
@@ -165,11 +179,22 @@ img {
 }
 
 .video-text {
+  width: 479px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
 
   color: var(--secondary-white-color);
+}
+
+.phone-vid {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  align-items: center;
+  width: 501px;
+  height: 282px;
+  background-image: url(../images/phone_flying.png);
+  background-size: contain;
 }
 
 /* END WATCH THE VIDEO */
